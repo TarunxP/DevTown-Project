@@ -1,0 +1,54 @@
+.n-wrapper{
+    background-color: rgb(126, 24, 215);
+    color: white;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.n-span{
+    font-size: 1.5em;
+    color: rgb(251, 251, 251);
+}
+
+.n-left{
+    flex:1;
+    align-items: center;
+    display: flex;
+    gap: 2rem;
+}
+
+.n-name{
+    color: rgb(206, 162, 236);
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.n-right{
+    display:flex;
+    flex:1;
+    align-items: center;
+    justify-content: center;
+    font-weight: 450;
+}
+
+.n-list{
+    justify-content: center;
+    flex: 1;
+}
+
+.n-list>ul{
+    font-size: large;
+    display:flex;
+    gap:5rem;
+    margin-right: 39rem;
+}
+
+.n-list>ul >li:hover{
+    cursor:pointer;
+    color:orange;
+}
+
+
+
+  

@@ -1,0 +1,55 @@
+.intro{
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url('https://wallpaperaccess.com/full/7270362.gif');
+  background-size: cover;
+  background-position: center;
+    /* display: flex;
+    height: 40vh;
+    margin-top: 6rem;   */
+    
+}
+
+.i-left{
+    margin-top: 20px;
+    display: flex;
+    position: relative;
+    flex: 1;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.i-name{
+    display: flex;
+    flex-direction: column;
+}
+
+.i-name>:nth-child(1){
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:blueviolet;
+    font-weight: bold;
+    font-size: 3rem;
+}
+.i-name>:nth-child(2){
+    color: blueviolet;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 3rem;
+}
+.i-name>:nth-child(3){
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 24px;
+    color: rgb(246, 196, 34);
+    margin-top: 11px;
+}
+
+.intro-stack{
+    border-radius: 20px;
+    overflow: hidden;
+    margin-top: 20px;
+}

@@ -1,0 +1,37 @@
+.App {
+  text-align: center;
+}
+
+.button{
+  border-radius: 34px;
+  border: none;
+  color: rgb(228, 223, 221);
+  font-size: 16px;
+  padding: 10px;
+  background: linear-gradient( 180deg,#eb59e1 26.71%, #f64ff6 99.36%);
+  box-shadow: 0px 20px 24px 3px rgba(147, 78, 207, 0.42);
+}
+
+.button:hover{
+  background:white;
+  cursor:pointer;
+  color:orange;
+  border: 1px solid orange;
+}
+
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
